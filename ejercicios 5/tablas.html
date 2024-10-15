@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tablas</title>
+    <style>
+        th{
+            color: rgb(255, 255, 255);
+            background-color: rgb(210, 60, 30);
+        }
+    </style>
 </head>
 <body>
  <h1>Tablas y atributos de la tabla</h1>
-    <table border="2">
+    <table border="1">
         <caption>Horario de clase</caption>
         <th colspan="3">Horario</th>
         <th>Lunes</th>
@@ -17,44 +23,44 @@
         <th>Viernes</th>
         <tr>
             <td colspan="3">15:30-16:15</td>
-            <td rowspan="2">Servicios en Red</td>
-            <td rowspan="2">Aplicaciones Web</td>
-            <td>Inglés Tecnico</td>
-            <td rowspan="2">S.O en Red</td>
-            <td rowspan="2">Seguridad Informática</td>
+            <td style="background-color: aqua;" rowspan="2">Servicios en Red</td>
+            <td style="background-color: rgb(221, 101, 49);" rowspan="2">Aplicaciones Web</td>
+            <td style="background-color: yellow;">Inglés Tecnico</td>
+            <td style="background-color: rgb(142, 96, 186);" rowspan="2">S.O en Red</td>
+            <td style="background-color: lightgreen;" rowspan="2">Seguridad Informática</td>
         </tr>
         <tr>
             <td colspan="3">16:15-17:20</td>
-            <td rowspan="2">Aplicaciones Web</td>
+            <td style="background-color: rgb(221, 101, 49);" rowspan="2">Aplicaciones Web</td>
         </tr>
         <tr>
             <td colspan="3">17:20-18:15</td>
-            <td>S.O en Red</td>
-            <td>S.O en Red</td>
-            <td>Servicios en Red</td>
-            <td>Servicios en Red</td>
+            <td style="background-color: rgb(142, 96, 186);">S.O en Red</td>
+            <td style="background-color: rgb(142, 96, 186);">S.O en Red</td>
+            <td style="background-color: aqua;">Servicios en Red</td>
+            <td style="background-color: aqua;">Servicios en Red</td>
         </tr>
         <tr>
             <td colspan="3">18:15-18:30</td>
         </tr>
         <tr>
             <td colspan="3">18:30-19:25</td>
-            <td rowspan="2">Seguridad Informática</td>
-            <td>Inglés Tecnico</td>
-            <td>Aplicaciones Web</td>
-            <td>Servicios en Red</td>
-            <td>Servicios en Red</td>
+            <td style="background-color: lightgreen;" rowspan="2">Seguridad Informática</td>
+            <td style="background-color: yellow;">Inglés Tecnico</td>
+            <td style="background-color: rgb(221, 101, 49);">Aplicaciones Web</td>
+            <td style="background-color: aqua;">Servicios en Red</td>
+            <td style="background-color: aqua;">Servicios en Red</td>
         </tr>
         <tr>
             <td colspan="3">19:25-20:20</td>
-            <td rowspan="2">Servicios en Red</td>
-            <td rowspan="2">S.O en Red</td>
-            <td rowspan="2">Empresa</td>
-            <td rowspan="2">S.O en Red</td>
+            <td style="background-color: aqua;" rowspan="2">Servicios en Red</td>
+            <td style="background-color: rgb(142, 96, 186);" rowspan="2">S.O en Red</td>
+            <td style="background-color: crimson;" rowspan="2">Empresa</td>
+            <td style="background-color: rgb(142, 96, 186);" rowspan="2">S.O en Red</td>
         </tr>
         <tr>
             <td colspan="3">20:20-21:25</td>
-            <td>Empresa</td>
+            <td style="background-color: crimson;">Empresa</td>
         </tr>
      </table>
 </body>
