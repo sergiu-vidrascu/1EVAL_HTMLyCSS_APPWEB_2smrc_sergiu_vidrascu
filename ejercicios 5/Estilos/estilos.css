@@ -3,4 +3,9 @@ p, h1 {
     background-color: blueviolet;
 }
 
-h1#textounico{color: blueviolet; background-color: aquamarine;} 
+h1#textounico{color: blueviolet; background-color: aquamarine;}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
