@@ -1,10 +1,18 @@
 /*selector universal*/
 *{
-    background-color: yellow;
+    background-color: rgb(84, 185, 163);
 }
 /*Selector de etiqueta*/
 h1{
-    background-color: green;
+    background-color: rgb(89, 173, 89);
+}
+footer{
+    padding: ;
+    margin: ;
+    border-color: blueviolet;
+    border-width: 5px;
+    border-style: ridge;
+    border-radius: 15px;
 }
 /*Selector de clase*/
 p.fondoazul{
@@ -14,13 +22,13 @@ p.fondoverde{
     background-color: lime;
 }
 p.fondorojo{
-    background-color: red;
+    background-color: rgb(216, 81, 81);
 }
 p.fondorosa{
-    background-color: rgb(233, 7, 184);
+    background-color: rgb(212, 112, 191);
 }
 p.fondonamorado{
-    background-color: purple;
+    background-color: rgb(114, 46, 114);
 }
 /*selectro de id*/
 p#unicomarron{
