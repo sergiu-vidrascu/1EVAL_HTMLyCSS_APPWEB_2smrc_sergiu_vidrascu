@@ -1,2 +1,6 @@
-class
-es para pillar todas las clases que se necesita
+p, h1 {
+    color: aqua;
+    background-color: blueviolet;
+}
+
+h1#textounico{color: blueviolet; background-color: aquamarine;} 
