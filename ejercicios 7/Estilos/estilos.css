@@ -26,3 +26,7 @@ p.fondonamorado{
 p#unicomarron{
     background-color: saddlebrown;
 }
+/*Selectores descendientes*/
+footer p {
+    color: red;
+}
