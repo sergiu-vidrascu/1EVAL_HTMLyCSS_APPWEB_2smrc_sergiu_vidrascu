@@ -1,0 +1,12 @@
+ul.cuadrados{
+    list-style-type: square;
+}
+ul.sinnada{
+    list-style-type: circle;
+}
+li.o{
+    list-style-type: square;
+}
+li.r{
+    list-style-type: circle;
+}
