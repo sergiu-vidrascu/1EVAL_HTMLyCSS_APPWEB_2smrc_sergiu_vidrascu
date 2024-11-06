@@ -1,0 +1,30 @@
+h1.center{
+    text-align: center;
+}
+h2.center{
+    text-align: center;
+}
+h3.center{
+    text-align: center;
+}
+h4.center{
+    text-align: center;
+}
+h5.center{
+    text-align: center;
+}
+h6.center{
+    text-align: center;
+}
+p.cursiva{
+    font-style: italic;
+}
+p.negrita{
+    font-weight: bold;
+}
+p.derecha{
+    text-align: right;
+}
+
+
+
